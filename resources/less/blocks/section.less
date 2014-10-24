@@ -1,0 +1,30 @@
+.section {
+	&:extend(.clearfix all);
+	margin-bottom: 3em;
+
+	&-heading {
+		float: left;
+		width: @cv-headings-width;
+		padding-right: 15%;
+		text-align: right;
+
+		@media (max-width: @layout-max-width){
+			float: none;
+			width: auto;
+			margin-bottom: .75em;
+			padding-right: 0;
+			font-size:1.75rem;
+			text-align: left;
+		}
+
+		&__text {
+			display: inline-block;
+			padding-bottom: .25em;
+			border-bottom: 5px solid @gray-lighter;
+		}
+	}
+
+	&-body {
+		overflow: hidden;
+	}
+}

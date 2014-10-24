@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	.box-sizing();
+}
+
+body {
+	font: @font-size-base / @line-height-base @font-family-base;
+	color: @gray-dark;
+
+	@media (max-width: @layout-max-width){
+		padding: 0 2em;
+	}
+}
+
+.layout {
+	width: @layout-max-width;
+	margin-left: 7%;
+	padding: 2em 0;
+
+	@media (max-width: 1060px){ margin-left: 0; }
+	@media (max-width: @layout-max-width){ width: auto; }
+}
+
+a {
+	color: @link-color;
+	&:hover { color: @link-hover-color; }
+}
