@@ -140,18 +140,25 @@ dd {
 .person {
   margin-bottom: 1em;
 }
+.person__avatar {
+  float: right;
+}
 .person__name {
+  padding-top: .5em;
   text-indent: 2px;
 }
 .person__role {
   font-size: 25px;
   font-size: 1.5rem;
 }
-.contacts {
+.links {
   margin: 0;
   list-style: none;
   font-size: 14px;
   font-size: 0.8rem;
+}
+.links__item_source {
+  margin-top: 1.25em;
 }
 .section {
   margin-bottom: 3em;
