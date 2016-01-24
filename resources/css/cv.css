@@ -142,6 +142,8 @@ dd {
 }
 .person__avatar {
   float: right;
+  max-width: 200px;
+  margin-top: 3.5rem;
 }
 .person__name {
   padding-top: .5em;
